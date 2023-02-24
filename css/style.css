@@ -1,3 +1,18 @@
+.navbar-brand{
+    font-family: 'Audiowide', cursive;
+    color: white;
+}
+
 .nav-link{
-    color:bisque;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: rgb(241, 239, 90);
+}
+
+.nav-link::before{
+    content: ' | ';
 }
