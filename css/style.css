@@ -3,8 +3,8 @@
     color: white;
 }
 
-.nav-link{
-    color: white;
+.nav-link {
+  color:  white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
 }
@@ -15,4 +15,14 @@
 
 .nav-link::before{
     content: ' | ';
+}
+
+#header {
+  background: rgb(127, 140, 182);
+  background: linear-gradient(
+    0deg,
+    rgba(127, 140, 182, 1) 12%,
+    rgba(54, 221, 228, 1) 53%,
+    rgba(67, 223, 255, 1) 83%
+  );
 }
